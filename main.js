@@ -36,7 +36,7 @@ window.addEventListener('contextmenu', (e) => {
     if (e.target.classList.contains("new-list")) {
         e.target.parentElement.remove( );
     }
-    console.log("Right clicked..")
+    console.log("Right clicked...")
 })
 
 
